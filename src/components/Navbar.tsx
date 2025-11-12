@@ -1,4 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
+import { Download } from 'lucide-react';
+import { generateResumePDF } from '../utils/resumeGenerator';
 
 function Navbar() {
   const location = useLocation();
@@ -33,11 +35,20 @@ function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="/projects" className={isActive('/projects') ? 'active' : ''}>
+              Projects
+            </Link>
+          </li>
+          <li>
             <Link to="/contact" className={isActive('/contact') ? 'active' : ''}>
               Contact
             </Link>
           </li>
         </ul>
+        <button className="resume-btn" onClick={generateResumePDF}>
+          <Download size={18} />
+          Resume
+        </button>
       </div>
     </nav>
   );
