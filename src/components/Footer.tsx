@@ -11,11 +11,11 @@ function Footer() {
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon">
             <Github size={24} />
           </a>
-          <a href="mailto:your.email@example.com" className="social-icon">
+          <a href="mailto:pranavakash250@gmail.com" className="social-icon">
             <Mail size={24} />
           </a>
         </div>
-        <p className="copyright">© 2025 Your Name. All Rights Reserved.</p>
+        <p className="copyright">© Pranavakash. made with React.</p>
       </div>
     </footer>
   );
