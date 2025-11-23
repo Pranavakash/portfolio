@@ -17,9 +17,7 @@ function About() {
             </div>
             <h3>Education</h3>
             <p>
-              Bachelor's Degree in Electronics and Communication with a focus on software engineering
-              and full stack development. Continuously learning and staying updated with
-              the latest technologies and industry best practices.
+              I hold a Bachelor's Degree in Electronics and Communication with a strong focus on software engineering and full stack development. During my studies, I built a solid foundation in programming, problem‑solving, which I now apply to modern web technologies. I am continuously learning and staying updated with the latest frameworks, tools, and industry best practices to strengthen my skills.
             </p>
           </div>
 
