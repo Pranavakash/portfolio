@@ -164,7 +164,7 @@ function Contact() {
         from_email: formData.email,
         message: formData.message
       },
-      'CKKYMMMB_n4bFHzyL' // Replace with your EmailJS Public Key
+      'aJ5_b7s0o5AuzEE5H' // Replace with your EmailJS Public Key
     )
       .then(() => {
         setSubmitted(true);
