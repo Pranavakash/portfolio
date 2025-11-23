@@ -17,7 +17,7 @@ function About() {
             </div>
             <h3>Education</h3>
             <p>
-              Bachelor's Degree in Computer Science with a focus on software engineering
+              Bachelor's Degree in Electronics and Communication with a focus on software engineering
               and full stack development. Continuously learning and staying updated with
               the latest technologies and industry best practices.
             </p>
@@ -29,10 +29,7 @@ function About() {
             </div>
             <h3>Experience</h3>
             <p>
-              Professional Java Full Stack Developer with hands-on experience in designing,
-              developing, and deploying enterprise-level web applications. Proficient in both
-              frontend and backend technologies with a strong understanding of the complete
-              software development lifecycle.
+              Currently working as a <b>Full Stack Developer Intern at Infronex (June 2025 – October 2025)</b>, where I am gaining hands-on experience in building and deploying real-world web applications. My role involves contributing to both frontend and backend development, collaborating with senior developers in Agile workflows. This internship is helping me strengthen my expertise in modern frameworks, enhance problem-solving skills, and adapt to professional development environments.
             </p>
           </div>
 
@@ -42,9 +39,7 @@ function About() {
             </div>
             <h3>Career Goals</h3>
             <p>
-              Aspiring to become a lead software architect, specializing in building scalable,
-              high-performance applications. Passionate about mentoring junior developers and
-              contributing to open-source projects that make a positive impact on the developer community.
+             I am an aspiring software developer eager to grow into a lead architect role in the future. I enjoy learning how to build scalable, high‑performance applications and am enthusiastic about collaborating with teams. I am also interested in mentoring peers as I gain experience and contributing to open‑source projects that positively impact the developer community.
             </p>
           </div>
         </div>
@@ -52,19 +47,13 @@ function About() {
         <div className="about-description">
           <h2>Who I Am</h2>
           <p>
-            As a dedicated Java Full Stack Developer, I bring a unique blend of technical expertise
-            and creative problem-solving to every project. My journey in software development began
-            with a fascination for how technology can transform ideas into reality.
+            As a passionate Java Full Stack Developer, I am eager to apply my technical skills and creative problem‑solving to real‑world projects. My journey in software development started with a curiosity about how technology can turn ideas into reality.
           </p>
           <p>
-            I specialize in building end-to-end web applications using Java and Spring Boot on the
-            backend, paired with modern frontend frameworks like React. My approach focuses on writing
-            clean, maintainable code while ensuring optimal performance and user experience.
+            I am learning to build end‑to‑end web applications using Java and Spring Boot for the backend, along with modern frontend frameworks like React. I focus on writing clean and maintainable code while aiming to deliver a smooth user experience. As a fresher, I am excited to apply these skills to real‑world projects and continue growing as a developer.
           </p>
           <p>
-            Beyond coding, I'm passionate about continuous learning, staying current with emerging
-            technologies, and sharing knowledge with the developer community. I believe in the power
-            of collaboration and always strive to deliver solutions that exceed expectations.
+           Beyond coding, I am passionate about continuous learning and staying updated with emerging technologies. I enjoy sharing knowledge with the developer community and believe in the power of collaboration. As I begin my career, I strive to contribute solutions that not only meet requirements but also create a positive impact.
           </p>
         </div>
       </div>
