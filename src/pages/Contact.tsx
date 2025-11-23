@@ -47,7 +47,7 @@ function Contact() {
                 <Mail size={24} />
                 <div>
                   <h4>Email</h4>
-                  <p>your.email@example.com</p>
+                  <p>pranavakash250@gmail.com</p>
                 </div>
               </div>
 
@@ -55,7 +55,7 @@ function Contact() {
                 <Phone size={24} />
                 <div>
                   <h4>Phone</h4>
-                  <p>+1 (123) 456-7890</p>
+                  <p>+91 99658-60341</p>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ function Contact() {
                 <MapPin size={24} />
                 <div>
                   <h4>Location</h4>
-                  <p>Your City, Your Country</p>
+                  <p>Tiruppur, India</p>
                 </div>
               </div>
             </div>
