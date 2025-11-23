@@ -22,8 +22,8 @@ function Projects() {
       title: 'Employee Management System',
       description: 'Collaborative task management application with real-time updates, user authentication, and team collaboration features.',
       technologies: ['Java', 'Spring Boot', 'MySql', 'React', 'JavaScript'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com',
+      // liveLink: 'https://example.com',
+      // githubLink: 'https://github.com',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
@@ -31,8 +31,8 @@ function Projects() {
       title: 'E-Commerce Platform',
       description: 'E-commerce platform with product catalog, shopping cart, and payment integration. Built with React frontend.',
       technologies: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com',
+      // liveLink: 'https://example.com',
+      // githubLink: 'https://github.com',
       image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     // {
