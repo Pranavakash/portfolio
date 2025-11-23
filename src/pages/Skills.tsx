@@ -19,10 +19,10 @@ function Skills() {
     { name: 'HTML/CSS', level: 92, category: 'Frontend' },
     { name: 'Bootstrap', level: 85, category: 'Frontend' },
     { name: 'MySQL', level: 83, category: 'Database' },
-    { name: 'PostgreSQL', level: 80, category: 'Database' },
+    { name: 'Mongodb', level: 80, category: 'Database' },
     { name: 'Git', level: 88, category: 'Tools' },
     { name: 'RESTful APIs', level: 86, category: 'Backend' },
-    { name: 'TypeScript', level: 82, category: 'Frontend' },
+    { name: 'TypeScript', level: 75, category: 'Frontend' },
     { name: 'Node.js', level: 78, category: 'Backend' },
   ];
 
