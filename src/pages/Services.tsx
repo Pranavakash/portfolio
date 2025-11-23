@@ -11,7 +11,6 @@ function Services() {
       <div className="content-wrapper fade-in">
         <h1 className="page-title">My Services</h1>
         <p>What I offer</p>
-</div>
         <div className="services-grid">
           <div className="service-card">
             <div className="service-icon">
@@ -35,7 +34,6 @@ function Services() {
               for optimal functionality.
             </p>
           </div>
-
           <div className="service-card">
             <div className="service-icon">
               <Palette size={48} />
@@ -47,7 +45,6 @@ function Services() {
               to deliver exceptional digital experiences.
             </p>
           </div>
-
           <div className="service-card">
             <div className="service-icon">
               <Database size={48} />
