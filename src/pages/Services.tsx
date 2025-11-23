@@ -24,7 +24,6 @@ function Services() {
               to your business needs.
             </p>
           </div>
-
           <div className="service-card">
             <div className="service-icon">
               <Layers size={48} />
