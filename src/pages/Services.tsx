@@ -10,7 +10,6 @@ function Services() {
     <div className="page-container services-page">
       <div className="content-wrapper fade-in">
         <h1 className="page-title">My Services</h1>
-        <p>What I offer</p>
         <div className="services-grid">
           <div className="service-card">
             <div className="service-icon">
@@ -20,7 +19,7 @@ function Services() {
             <p>
               Full-stack web application development using Java, Spring Boot, React, and modern
               web technologies. Creating responsive, scalable, and performant solutions tailored
-              to your business needs.
+              to business needs.
             </p>
           </div>
           <div className="service-card">
@@ -51,7 +50,7 @@ function Services() {
             </div>
             <h3>Database Management</h3>
             <p>
-              Database design, optimization, and management using MySQL, PostgreSQL, and MongoDB.
+              Database design, optimization, and management using MySQL, and MongoDB.
               Implementing efficient data models, writing optimized queries, and ensuring data
               integrity and security.
             </p>
