@@ -106,7 +106,7 @@ function Navbar() {
           </li>
         </ul>
         {/* Resume Download Button */}
-        <a href="/Pranavakash D Fullstack Developer (1).pdf" download className="resume-btn">
+        <a href="./Pranavakash D Fullstack Developer (1).pdf" download className="resume-btn">
           <Download size={18} />
           Resume
         </a>
