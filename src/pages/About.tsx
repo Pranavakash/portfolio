@@ -29,7 +29,7 @@ function About() {
             </div>
             <h3>Experience</h3>
             <p>
-              Currently working as a <b>Full Stack Developer Intern at Infronex (June 2025 – October 2025)</b>, where I am gaining hands-on experience in building and deploying real-world web applications. My role involves contributing to both frontend and backend development, collaborating with senior developers in Agile workflows. This internship is helping me strengthen my expertise in modern frameworks, enhance problem-solving skills, and adapt to professional development environments.
+              Currently working as a <b>Full Stack Developer Intern at Infronex (June 2025 – October 2025)</b>, where I am gaining hands-on experience in building and deploying real-world web applications, collaborating with senior developers in Agile workflows. This internship is helping me strengthen my expertise in modern frameworks and adapt to professional development environments.
             </p>
           </div>
 
@@ -39,7 +39,7 @@ function About() {
             </div>
             <h3>Career Goals</h3>
             <p>
-             I am an aspiring software developer eager to grow into a lead architect role in the future. I enjoy learning how to build scalable, high‑performance applications and am enthusiastic about collaborating with teams. I am also interested in mentoring peers as I gain experience and contributing to open‑source projects that positively impact the developer community.
+             I am an aspiring software developer eager to grow into a lead architect role in the future. I enjoy learning how to build scalable, high‑performance applications. I am also interested in mentoring peers as I gain experience and contributing to open‑source projects that positively impact the developer community.
             </p>
           </div>
         </div>
