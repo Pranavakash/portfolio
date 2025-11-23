@@ -15,7 +15,7 @@ function Footer() {
             <Mail size={24} />
           </a>
         </div>
-        <p className="copyright">© Pranavakash. made with React. ❤️</p>
+        <p className="copyright">© Pranavakash. made with React.❤️</p>
       </div>
     </footer>
   );
