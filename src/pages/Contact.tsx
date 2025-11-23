@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
-import emailjs from 'emailjs-com'; // <-- Added EmailJS
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -23,28 +22,11 @@ function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
-    emailjs.send(
-      'service_pranav250', // Replace with your EmailJS Service ID
-      'template_j9g215f', // Replace with your EmailJS Template ID
-      {
-        from_name: formData.name,
-        from_email: formData.email,
-        message: formData.message
-      },
-      'aJ5_b7s0o5AuzEE5H' // Replace with your EmailJS Public Key
-    )
-      .then(() => {
-        setSubmitted(true);
-        setTimeout(() => {
-          setSubmitted(false);
-          setFormData({ name: '', email: '', message: '' });
-        }, 3000);
-      })
-      .catch((error) => {
-        alert('Oops, something went wrong and your message was not sent.');
-        console.error('EmailJS error:', error);
-      });
+    setSubmitted(true);
+    setTimeout(() => {
+      setSubmitted(false);
+      setFormData({ name: '', email: '', message: '' });
+    }, 3000);
   };
 
   return (
