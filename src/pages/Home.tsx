@@ -33,7 +33,7 @@ function Home() {
           <div className="profile-image-wrapper">
             <div className="glow-circle"></div>
             <img
-              src="/pages/WhatsApp Image 2025-11-15 at 14.58.30.jpeg"
+              src="/WhatsApp Image 2025-11-15 at 14.58.30.jpeg"
               alt="Profile"
               className="profile-image"
             />
