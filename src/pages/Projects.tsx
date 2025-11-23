@@ -19,58 +19,58 @@ function Projects() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce platform with product catalog, shopping cart, and payment integration. Built with Spring Boot backend and React frontend.',
-      technologies: ['Java', 'Spring Boot', 'React', 'MySQL', 'Stripe'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com',
-      image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600'
-    },
-    {
-      id: 2,
-      title: 'Task Management App',
+      title: 'Employee Management System',
       description: 'Collaborative task management application with real-time updates, user authentication, and team collaboration features.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'JWT'],
+      technologies: ['Java', 'Spring Boot', 'MySql', 'React', 'JavaScript'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-      id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather application with location-based forecasts, API integration, and responsive design. Shows current conditions and 7-day forecast.',
-      technologies: ['React', 'JavaScript', 'Weather API', 'CSS3', 'Bootstrap'],
+      id: 2,
+      title: 'E-Commerce Platform',
+      description: 'E-commerce platform with product catalog, shopping cart, and payment integration. Built with React frontend.',
+      technologies: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com',
-      image: 'https://images.pexels.com/photos/209728/pexels-photo-209728.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
-    {
-      id: 4,
-      title: 'Social Media Analytics',
-      description: 'Analytics dashboard for social media metrics with data visualization, real-time updates, and performance insights.',
-      technologies: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'Chart.js'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com',
-      image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600'
-    },
-    {
-      id: 5,
-      title: 'Blog Content Management System',
-      description: 'Full-featured CMS for managing blog content with rich text editor, comment system, and user authentication.',
-      technologies: ['Java', 'Spring Boot', 'React', 'MySQL', 'JWT'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com',
-      image: 'https://images.pexels.com/photos/3629547/pexels-photo-3629547.jpeg?auto=compress&cs=tinysrgb&w=600'
-    },
-    {
-      id: 6,
-      title: 'Expense Tracker',
-      description: 'Personal finance management application with expense tracking, budget planning, and financial analytics.',
-      technologies: ['React', 'Firebase', 'JavaScript', 'Chart.js', 'Bootstrap'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com',
-      image: 'https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=600'
-    }
+    // {
+    //   id: 3,
+    //   title: 'Weather Dashboard',
+    //   description: 'Real-time weather application with location-based forecasts, API integration, and responsive design. Shows current conditions and 7-day forecast.',
+    //   technologies: ['React', 'JavaScript', 'Weather API', 'CSS3', 'Bootstrap'],
+    //   liveLink: 'https://example.com',
+    //   githubLink: 'https://github.com',
+    //   image: 'https://images.pexels.com/photos/209728/pexels-photo-209728.jpeg?auto=compress&cs=tinysrgb&w=600'
+    // },
+    // {
+    //   id: 4,
+    //   title: 'Social Media Analytics',
+    //   description: 'Analytics dashboard for social media metrics with data visualization, real-time updates, and performance insights.',
+    //   technologies: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'Chart.js'],
+    //   liveLink: 'https://example.com',
+    //   githubLink: 'https://github.com',
+    //   image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600'
+    // },
+    // {
+    //   id: 5,
+    //   title: 'Blog Content Management System',
+    //   description: 'Full-featured CMS for managing blog content with rich text editor, comment system, and user authentication.',
+    //   technologies: ['Java', 'Spring Boot', 'React', 'MySQL', 'JWT'],
+    //   liveLink: 'https://example.com',
+    //   githubLink: 'https://github.com',
+    //   image: 'https://images.pexels.com/photos/3629547/pexels-photo-3629547.jpeg?auto=compress&cs=tinysrgb&w=600'
+    // },
+    // {
+    //   id: 6,
+    //   title: 'Expense Tracker',
+    //   description: 'Personal finance management application with expense tracking, budget planning, and financial analytics.',
+    //   technologies: ['React', 'Firebase', 'JavaScript', 'Chart.js', 'Bootstrap'],
+    //   liveLink: 'https://example.com',
+    //   githubLink: 'https://github.com',
+    //   image: 'https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=600'
+    // }
   ];
 
   return (
