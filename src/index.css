@@ -702,6 +702,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
   .nav-container {
     padding: 0 1rem;
   }
@@ -941,5 +949,70 @@ body {
 
   .project-card h3 {
     font-size: 1.3rem;
+  }
+}
+
+
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--accent-cyan);
+}
+
+/* Overlay background */
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 999;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .hamburger {
+    display: block;
+    z-index: 1001; /* stays above menu */
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* hidden off-screen */
+    height: 100%;
+    width: 70%; /* covers part of screen */
+    background: rgba(0,0,0,0.95);
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    transition: right 0.4s ease;
+    z-index: 1000;
+  }
+
+  .nav-menu.active {
+    right: 0; /* slides in */
+  }
+
+  .nav-menu a {
+    color: var(--accent-cyan);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .nav-menu a:hover {
+    color: var(--accent-pink);
   }
 }
